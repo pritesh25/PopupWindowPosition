@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         Log.d(mTag, "mainLayout height = ${mainLayout.height}")
         Log.d(mTag, "mainLayout width  = ${mainLayout.width}")
 
-        val btn = findViewById<Button>(R.id.btn)
+        val btn = findViewById<Button>(R.id.btmLeft)
         btn.setOnClickListener {
 
             val location1 = IntArray(2)
